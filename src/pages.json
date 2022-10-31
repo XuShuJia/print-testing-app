@@ -1,0 +1,71 @@
+{
+  "pages": [
+    {
+      "path": "pages/home-page/home-page"
+    },
+    {
+      "path": "pages/modules-page/modules-page"
+    },
+    {
+      "path": "pages/setting-page/setting-page"
+    },
+    {
+      "path": "pages/sign-in-page/sign-in-page"
+    },
+    {
+      "path": "pages/print-page/print-page"
+    }
+  ],
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "height": "56px",
+    "color": "#666666",
+    "fontSize": "10px",
+    "selectedColor": "#0191ff",
+    "backgroundColor": "",
+    "blurEffect": "light",
+    "borderStyle": "#dddddd",
+    "iconfontSrc": "static/iconfont/iconfont.ttf",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home-page/home-page",
+        "iconfont": {
+          "text": "\ue7c6",
+          "selectedText": "\ue867",
+          "fontSize": "24px",
+          "color": "#666666",
+          "selectedColor": "#0191ff"
+        }
+      },
+      {
+        "text": "模块",
+        "pagePath": "pages/modules-page/modules-page",
+        "iconfont": {
+          "text": "\ue792",
+          "selectedText": "\ue853",
+          "fontSize": "24px",
+          "color": "#666666",
+          "selectedColor": "#0191ff"
+        }
+      },
+      {
+        "text": "设置",
+        "pagePath": "pages/setting-page/setting-page",
+        "iconfont": {
+          "text": "\ue78e",
+          "selectedText": "\ue871",
+          "fontSize": "24px",
+          "color": "#666666",
+          "selectedColor": "#0191ff"
+        }
+      }
+    ]
+  }
+}
