@@ -1,0 +1,120 @@
+.page {
+  background: orange;
+}
+.page-header {
+  // background: orange;
+}
+.page-body {
+  // background: orange;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50rpx !important;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.title {
+  width: 100%;
+  color: #333333;
+  font-size: 120rpx;
+  font-weight: bold;
+}
+.slogan {
+  width: 100%;
+  color: #666666;
+  // text-align: center;
+  font-size: 36rpx;
+  padding: 30rpx 0;
+}
+.sign-in-form {
+  width: 100%;
+  height: 75%;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.form-top {
+  width: 100%;
+}
+.form-bottom {
+  width: 100%;
+  padding-bottom: 30rpx;
+}
+.form-item {
+  width: 100%;
+  margin-bottom: 50rpx;
+  &:nth-of-type(2) {
+    margin-bottom: 30rpx;
+  }
+}
+.form-label {
+  width: 100%;
+  font-size: 32rpx;
+  line-height: 1;
+  padding: 0 20rpx;
+  margin-bottom: 10rpx;
+}
+.input {
+  width: 100%;
+  height: 100rpx;
+  line-height: 1;
+  box-sizing: border-box;
+  border-radius: 50rpx;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0 30rpx;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.sign-in-button {
+  width: 100%;
+  height: 100rpx;
+  border-radius: 50rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.form-item-row {
+  width: 100%;
+  line-height: 1;
+  font-size: 32rpx;
+  padding: 5px 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.checkbox {
+  transform: scale(0.7);
+  :global {
+    .uni-checkbox-input {
+      border: none;
+      background: rgba(255, 255, 255, 0.5) !important;
+    }
+  }
+}
+.proxy-setting-button {
+  margin-bottom: 30rpx;
+  padding: 30rpx 20rpx;
+  border-radius: 50rpx;
+  transition: background 0.3s ease;
+  &:active {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+.proxy-setting-button-icon {
+  margin-left: 10rpx;
+  font-size: 38rpx;
+}

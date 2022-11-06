@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { onLaunch, onShow, onHide } from "@dcloudio/uni-app";
 onLaunch(() => {
-  console.log("App Launch");
   const token = uni.getStorageSync("token");
   if (token) {
     uni.redirectTo({
@@ -19,11 +18,7 @@ onLaunch(() => {
     });
   }
 });
-onShow(() => {
-  console.log("App Show");
-});
-onHide(() => {
-  console.log("App Hide");
-});
+onShow(() => {});
+onHide(() => {});
 </script>
 <style></style>

@@ -9,9 +9,25 @@ export const PageContainerProps = {
     type: Boolean,
     default: false,
   },
-  border: {
+  showBorder: {
     type: Boolean,
     default: false,
+  },
+  bodyPadding: {
+    type: Boolean,
+    default: true,
+  },
+  pageClass: {
+    type: String as PropType<string | string[]>,
+    default: "",
+  },
+  headerClass: {
+    type: String as PropType<string | string[]>,
+    default: "",
+  },
+  bodyClass: {
+    type: String as PropType<string | string[]>,
+    default: "",
   },
 };
 

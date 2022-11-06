@@ -1,5 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import PageContainer from "../../components/page-container";
+</script>
 
 <template>
-  <view>Modules</view>
+  <page-container>
+    <view>Modules</view>
+  </page-container>
 </template>
